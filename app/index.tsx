@@ -1,2 +1,2 @@
-import { HomeView } from '../src/views'
+import { HomeView } from '@views'
 export default HomeView

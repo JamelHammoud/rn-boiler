@@ -1,1 +1,3 @@
-export type ExampleType = {}
+export type ExampleType = {
+  text: string
+}

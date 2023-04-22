@@ -1,6 +1,6 @@
 import { FC } from 'react'
-import { Link, Stack } from 'expo-router'
 import { Text } from 'react-native'
+import { Link, Stack } from 'expo-router'
 import { StyledHomeView } from '.'
 
 const HomeView: FC = () => {

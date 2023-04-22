@@ -1,2 +1,2 @@
-import { ExampleView } from '../src/views'
+import { ExampleView } from '@views'
 export default ExampleView

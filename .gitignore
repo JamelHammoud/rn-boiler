@@ -12,6 +12,9 @@ web-build/
 .vscode/
 .prettierrc
 
+# Expo
+app.json
+
 # macOS
 .DS_Store
 

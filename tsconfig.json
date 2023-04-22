@@ -1,11 +1,13 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-    // "paths": {
-    //   "@components": ["./components/*"],
-    //   "@scripts": ["./utils/scripts/index"],
-    //   "@types": ["./types/index"]
-    // }
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@components": ["src/components/index.ts"],
+      "@views": ["src/views/index.ts"],
+      "@scripts": ["src/utils/scripts/index.ts"],
+      "@types": ["src/types/index.ts"]
+    }
   }
 }
