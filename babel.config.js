@@ -11,7 +11,9 @@ module.exports = function(api) {
             '@views': './src/views/index.ts',
             '@components': './src/components/index.ts',
             '@scripts': './src/utils/scripts/index.ts',
-            '@types': './src/types/index.ts'
+            '@utils': './src/utils/index.ts',
+            '@types': './src/types/index.ts',
+            '@redux': './src/redux/index.ts'
           },
           extensions: ['.ts', '.tsx']
         }
